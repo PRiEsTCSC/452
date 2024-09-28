@@ -7,7 +7,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000"])
-API_KEY = 'AIzaSyA7KWxO8MXBQou5INzucuiqujqE8Vof3ec'  # Add your Google Gemini API key here
+API_KEY = ''  # Add your Google Gemini API key here
 
 # Configure the Google Gemini API
 genai.configure(api_key=API_KEY)
